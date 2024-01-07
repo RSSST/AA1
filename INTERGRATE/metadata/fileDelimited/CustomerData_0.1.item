@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_BRp-kK1SEe6Tac6goWmt0Q" name="CustomerData" dataPackage="_BRp-ka1SEe6Tac6goWmt0Q" Server="Localhost 127.0.0.1" FilePath="C:/Users/USER/Downloads/Dataset2.csv" Format="WINDOWS" Encoding="UTF-8" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_BRp-ka1SEe6Tac6goWmt0Q" name="default" dataManager="_BRp-kK1SEe6Tac6goWmt0Q">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_BRp-kq1SEe6Tac6goWmt0Q" id="_45Me0K1REe6Tac6goWmt0Q" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_BRp-k61SEe6Tac6goWmt0Q" label="CustomerID" length="5" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_BRp-lK1SEe6Tac6goWmt0Q" label="Tenure" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_BRp-la1SEe6Tac6goWmt0Q" label="PreferredLoginDevice" length="12" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_BRp-lq1SEe6Tac6goWmt0Q" label="CityTier" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_BRp-l61SEe6Tac6goWmt0Q" label="WarehouseToHome" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_BRp-mK1SEe6Tac6goWmt0Q" label="PreferredPaymentMode" length="16" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_BRp-ma1SEe6Tac6goWmt0Q" label="Gender" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_BRp-mq1SEe6Tac6goWmt0Q" label="HourSpendOnApp" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_BRp-m61SEe6Tac6goWmt0Q" label="NumberOfDeviceRegistered" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_BRp-nK1SEe6Tac6goWmt0Q" label="PreferedOrderCat" length="18" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_BRp-na1SEe6Tac6goWmt0Q" label="SatisfactionScore" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_BRp-nq1SEe6Tac6goWmt0Q" label="MaritalStatus" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_BRp-n61SEe6Tac6goWmt0Q" label="NumberOfAddress" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_BRp-oK1SEe6Tac6goWmt0Q" label="Complain" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_BRp-oa1SEe6Tac6goWmt0Q" label="OrderAmountHikeFromlastYear" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_BRp-oq1SEe6Tac6goWmt0Q" label="CouponUsed" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_BRp-o61SEe6Tac6goWmt0Q" label="OrderCount" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_BRp-pK1SEe6Tac6goWmt0Q" label="DaySinceLastOrder" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_BRp-pa1SEe6Tac6goWmt0Q" label="CashbackAmount" length="6" precision="3" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
