@@ -1,15 +1,23 @@
+# AA1
+
 # Project Overview
+Objective: To predict the customer churn for the e-commerce business and identify the main features affected to the customer churn.
 
-INTERGRATE - This folder is the ways to intergrate two files (Dataset1) and (Dataset2) into E Commerse Dataset
+SAS e-Miner: This tool used to the process for Sample, Explore, Model and Assess in SEMMA.
 
-AA_Diagram.xml - This xml file is the file of SAS Enterprise Miner
+Talend Data Intergration: This tool used to combine the dataset.
 
-Dataset1.csv - This is dataset 1
+Talend Data Prep: This tool used to process the data.
 
-Dataset2.csv - This is dataset 2
+# Data File
+Dataset1.csv : First dataset
+Dataset2.csv : Second dataset
+E Commerce Dataset.xlsx : Combined dataset
+em_save_TRAIN_Latest Preparation : Processed dataset
 
-E Commerce Dataset.xlsx - This is combined dataset
+# Code and Scripts
 
-dataprep_em_save_TRAIN_Latest Preparation_2024-01-07_11-45-40-773 - This is the code export from the Talent Data Preparation
+dataprep_em_save_TRAIN_Latest Preparation_2024-01-07_11-45-40-773 : Code export from the Talend Data Prep of data processing
 
-em_save_TRAIN_Latest Preparation - This is the dataset export from the Talend Data Preparation after data processing
+
+
