@@ -30,10 +30,11 @@ Talent Data Prep: Upload the combined dataset into it and perform data cleaning.
 
 # Results and Analysis
 Gradient Boosting has outperformed compare to the Decison Tree and Random Forest. 	
-         **Decision Tree**	**Random Forest**	**Gradient Boosting**
-Accuracy	  0.77	           0.79	          0.82
-TPR	        0.816	           0.816	        0.816
-TNR	        0.737	           0.763	        0.816
+|                |      _Decision Tree_     |     _Random Forest_     |    _Gradient Boosting_   |
+|----------------|:------------------------:|:-----------------------:|:------------------------:|
+| _Accuracy_     |          0.77            |         0.79            |         **0.82**         |
+| _TPR (Recall)_ |  62 / (62+14) = 0.816    | 62 / (62+14) = 0.816    | **62 / (62+14) = 0.816** |
+| _TNR_          |  56 / (56+20) = 0.737    | 58 / (58+18) = 0.763    | **62 / (62+14) = 0.816** |
 
 # Reflections or Learning Outcomes
 The challenges that faced in this project is the data imbalanced problem. By applying with the data oversampling method, it has successfully improved the performance of model in predicting the churn. 
