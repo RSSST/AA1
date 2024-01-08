@@ -14,6 +14,7 @@ Dataset1.csv : First dataset
 Dataset2.csv : Second dataset
 E Commerce Dataset.xlsx : Combined dataset
 em_save_TRAIN_Latest Preparation : Processed dataset
+* The dataset is self generated and refer to this link as reference : https://www.kaggle.com/datasets/ankitverma2010/ecommerce-customer-churn-analysis-and-prediction/data 
 
 # Code and Scripts
 
